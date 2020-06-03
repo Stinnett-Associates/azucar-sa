@@ -60,10 +60,11 @@ As the script uses the .NET ADAL library for for authenticating the user and cal
 <h2> Quick Start: Running the Tool</h2>
 
 1. Determine which element from the Azure environment will be run via the script. The default value is ```All```.
+	* Please note. If you have IE or Edge open and authenticated to Azure or Office 365, the script will use your cached token. If you need to change to an administrative Azure account, close your IE or Edge windows, or logout of Azure/Office 365 inside of IE and/or Edge.
 
 ![5](https://raw.githubusercontent.com/Stinnett-Associates/azucar-sa/master/Images/5.PNG)
 
-2. Run the script based on the specific file to be audited by entering the following command, based on the output file format.  Example Scripts:
+1. Run the script based on the specific file to be audited by entering the following command, based on the output file format.  Example Scripts:
   
   ```
   .\azucar-sa.ps1 -ExportTo CSV -Analysis All
