@@ -71,7 +71,7 @@ As the script uses the .NET ADAL library for for authenticating the user and cal
   ``` 
 
 
-![4](https://raw.githubusercontent.com/Stinnett-Associates/azucar-sa/master/Images/4.png
+![4](https://raw.githubusercontent.com/Stinnett-Associates/azucar-sa/master/Images/4.png)
 3.	If Applicable - Authorize Admin authentication credentials to proceed in running the script
 4.	Select a specific Azure subscription to audit and allow script to complete
 
